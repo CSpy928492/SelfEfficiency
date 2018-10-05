@@ -6,6 +6,21 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:typeface">monospace</item>-->
+        <item name="actionBarStyle">@style/myActionBar</item>
     </style>
+
+    <style name="myActionBar" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="titleTextStyle">@style/titleStyle</item>
+
+    </style>
+
+    <style name="titleStyle" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+
+
+
 
 </resources>
